@@ -104,7 +104,6 @@ body{
         border: 4px solid #c5d0cf7a;
         box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
         border-radius: 10px;
-        text-align: center;
         color: #fff;
         font-family: "Poppins", sans-serif;
         transition: all 0.3s ease;
@@ -154,6 +153,7 @@ body{
     }
 
     h2{
+        margin-left: 20px;
         opacity: 0.5;
     }
 
@@ -298,13 +298,26 @@ body{
         background-color: #282928;
     }
 
-    .footer{
-        margin-top: 50px;
-        display: flex;
-        justify-content: space-around;
-        background-color: #8f8f8f;
-    }
+    
 
+}
+
+.footer{
+    width: 100vw;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: -20px;
+    margin-bottom: -10px;
+    display: flex;
+    color: #D6D6E7;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #484646;
+}
+
+.ville{
+    margin-top: -15px;
 }
 
 .button {
@@ -336,6 +349,10 @@ body{
     will-change: box-shadow, transform;
     font-size: 20px;
   }
+
+.para{
+    text-align: center;
+}
 
 .container {
     position: relative;
